@@ -9,6 +9,14 @@ class Alface:
     na:None
 
     # Construtor
+    def __init__(self, tipo, hco3, so4, cl, ca, mg, na):
+        self.setTipo = tipo
+        self.setHCO3 = hco3
+        self.setSO4 = so4
+        self.setCL = cl
+        self.setCA = ca
+        self.setMG = mg
+        self.setNA = na
 
     # Funções
 

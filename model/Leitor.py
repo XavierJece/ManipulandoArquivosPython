@@ -32,6 +32,9 @@ class Leitor():
         # Fechando o arquivo
         ref_arquivo.close()
         
+        # deletando a linha que está o titulo das colunas
+        del valores[0]
+
         # retordando dados
         return valores
 

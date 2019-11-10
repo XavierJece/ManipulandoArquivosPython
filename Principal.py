@@ -1,10 +1,8 @@
 # Imports
-from model.Leitor import *
+from controller.Alface import *
 
-leitor = Leitor("acp_alface")
+controlAlface = Controller()
 
-dados = leitor.ler()
-contador = 0
+dados = controlAlface.listaAlface('acp_alface')
 
-for dado in dados:
-    print(dado)
+print(dados)
