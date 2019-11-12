@@ -8,13 +8,13 @@ class Controller:
     # Funções
     
     def listaAlface(self, arquivo):
-        leitor = leitor(arquivo)
+        leitor = Leitor(arquivo)
         dados = leitor.ler()
         
         listRetorno = []
         
         for dado in dados:
-            alface = alface(
+            alface = Alface(
                 dado[0],
                 dado[1],
                 dado[2],
