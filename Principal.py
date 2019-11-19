@@ -1,8 +1,13 @@
 # Imports
 from controller.Alface import *
+from model.Alface import *
 
 controlAlface = Controller()
 
-dados = controlAlface.listaAlface('acp_alface')
+nomeArquivo = 'acp_alface'
 
-print(dados)
+# dados = controlAlface.listaAlface(nomeArquivo)
+dados = controlAlface.listaAlfaceEspecifica(nomeArquivo, 'l')
+
+for dado in dados:
+    print(dado.getTipo())

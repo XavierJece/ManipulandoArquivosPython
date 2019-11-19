@@ -26,6 +26,17 @@ class Controller:
             listRetorno.append(alface)
         return listRetorno
 
+    def listaAlfaceEspecifica(self, arquivo, variedade):
+        listaGeral = self.listaAlface(arquivo)
+
+        listEspecifica = []
+
+        for alface in listaGeral:
+            if(variedade in alface.getTipo()):
+                listEspecifica.append(alface)
+
+        return listEspecifica
+
 
 
     

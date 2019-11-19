@@ -10,25 +10,26 @@ class Alface:
 
     # Construtor
     def __init__(self, tipo, hco3, so4, cl, ca, mg, na):
-        self.setTipo = tipo
-        self.setHCO3 = hco3
-        self.setSO4 = so4
-        self.setCL = cl
-        self.setCA = ca
-        self.setMG = mg
-        self.setNA = na
+        self.setTipo(tipo)
+        self.setHCO3(hco3)
+        self.setSO4(so4)
+        self.setCL(cl)
+        self.setCA(ca)
+        self.setMG(mg)
+        self.setNA(na)
 
     # Funções
 
     # Gets and Sets
     def getTipo(self):
         return self.tipo
+
     def setTipo(self, tipo):
-        if(format('l' in tipo.lower())):
+        if('l' in tipo.lower()):
             self.tipo = 'l'
-        elif(format('l' in tipo.lower())):
+        elif('c' in tipo.lower()):
             self.tipo = 'c'
-        elif(format('r' in tipo.lower())):
+        elif('r' in tipo.lower()):
             self.tipo = 'r'
         else:
             self.tipo = 'outro' 
