@@ -26,6 +26,7 @@ class Leitor():
         
         # lendo linha por linha
         for linha in ref_arquivo:
+            
             # Add dados da linha no vetor
             valores.append(linha.split())
         
