@@ -26,11 +26,11 @@ class Alface:
 
     def setTipo(self, tipo):
         if('l' in tipo.lower()):
-            self.tipo = 'l'
+            self.tipo = 'lisa'
         elif('c' in tipo.lower()):
-            self.tipo = 'c'
+            self.tipo = 'crespa'
         elif('r' in tipo.lower()):
-            self.tipo = 'r'
+            self.tipo = 'roxa'
         else:
             self.tipo = 'outro' 
 
