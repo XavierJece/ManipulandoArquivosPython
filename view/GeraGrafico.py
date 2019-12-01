@@ -35,11 +35,11 @@ class GeraGrafico:
                         ha='center', va='bottom', rotation=90)
 
     def definirCor(self, variedade):
-        if variedade == 'lisas':
+        if variedade.lower() == 'lisas':
             return "#f390ea"
-        elif variedade == 'crespas':
+        elif variedade.lower() == 'crespas':
             return "#295d0f"
-        elif variedade == 'roxas':
+        elif variedade.lower() == 'roxas':
             return "#9400d3"
         else:
             return "#a0e403"
