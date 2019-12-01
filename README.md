@@ -1,4 +1,4 @@
-"# Manipulando Arquivos com Python
+#Manipulando Arquivos com Python
 
 Este trabalho foi proposto na disciplina de Paradigmas de linguagens de Programação na Universidade Tecnológica Federal do Paraná (UTFPR), com o objetivo de extrair os dados de um arquivo .txt, aplicar formulas matematica (Moda, mediana e média) e apresentar o resultado ao usuário. Vale salientar que foi usado a base da arquitetura MVC para o desenvolvimento do mesmo.
 
@@ -8,6 +8,7 @@ Este trabalho foi proposto na disciplina de Paradigmas de linguagens de Programa
 ## Descrição das funções:
 
 **classe principal:**
+    
     1- apresentacaoMenu
         Está função é para apresentar um menu no prompt de comando do usuário para que ele define qual variedade ele deseja observar.
     
@@ -24,9 +25,11 @@ Este trabalho foi proposto na disciplina de Paradigmas de linguagens de Programa
         Prepara todas variáveis para inserir no gráfico.
 
 **Classe GeraGrafico**
-    - Nesta Classe foi usado a biblioteca matplotlib para definir as propriedades do gráfico (Cor, nomes e etc).
+    
+    1- Nesta Classe foi usado a biblioteca matplotlib para definir as propriedades do gráfico (Cor, nomes e etc).
 
 __Duvidas__ sobre o programa, pode-se entrar em contato com os autores por email:
-    Jecé Xavier: jece@alunos.utfpr.edu.br
-    Matheus Ramos: matheusramos@alunos.utfpr.edu.br
+    
+    1- Jecé Xavier: jece@alunos.utfpr.edu.br
+    2- Matheus Ramos: matheusramos@alunos.utfpr.edu.br
 "
